@@ -1,0 +1,114 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.fx{
+	width: 1200px;
+	margin: 0 auto;
+}
+.head{
+	display: block;
+	margin-top: 20px;
+}
+.top{
+	display: inline-block;
+	width: 100%;
+}
+.top .left{
+	float: left;
+	margin-left: 60px;
+	
+}
+.top .left a{
+	display: block;
+}
+.top .right{
+	display: inline-block;
+	float: right;
+	margin-right: 80px;
+}
+.top .right ul li{
+	display: inline-block;
+	float: left;
+}
+
+.top .right ul li a{
+	display: block;
+	padding: 30px 45px;
+	font-size: 18px;
+	color: #5d5d5d;
+}
+.top .right ul li a:hover{
+	color:#e1073b;
+	border-bottom: 1px solid #e1073b;
+}
+.main{
+	text-align: center;
+	margin-top: 50px;
+}
+.main .mid{
+	height: 413px;
+	width: 640px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #323232;
+}
+.main .mid .title{
+	line-height: 40px;
+	text-align: center;
+	background: #e1073b;
+	border-radius:5px;
+	color: #fff;
+}
+.main .mid .content{
+	
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.main .mid .content .form-group {
+	
+	line-height: 80px;
+}
+.main .mid .content .form-group span{
+	font-size: 18px;
+	font-weight: 500;
+}
+.main .mid .content .form-group input{
+	width: 45%;
+	height: 40px;
+	border-radius:4px;
+	padding-left: 4px;
+	border: none;
+	 padding: 5px 8px;
+    font-size: 13px;
+    color: #222;
+    vertical-align: middle;
+     border: 2px solid #ccc;
+	
+	
+	
+}
+.main .mid .content .form-group input:focus{
+	border: 2px solid #49aecb;
+}
+.main .mid .content .form-group:nth-child(3) input{
+	width: 30%;
+}
+.main .mid .content .form-group img{
+	width: 15%;
+	line-height: 20px;
+}
+.chio{
+	display: block;
+	text-align: left;
+}
+.chio input{
+	height: 15px!important;
+	text-align: left;
+}
+.content .yzm{
+	display: inline-block;
+	float: right;
+}

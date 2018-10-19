@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<meta name="format-detection" content="telephone=no" />
+
+		<title></title>
+		<link rel="stylesheet" href="css/global.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link media="(max-width: 768px)" rel="stylesheet" href="css/mobile.css" />
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+		
+	</head>
+	<body>
+		<div class="head fx">
+			<div class="top">
+				<div class="left ">
+					<a href="#">
+						<img src="img/logo.png">
+					</a>
+					
+				</div>
+				
+				<div class="right ">
+					<ul>
+						<li><a href="#">首页</a></li>
+						<li><a href="#">购物返利</a></li>
+						<li><a href="#">交流论坛</a></li>
+						<li><a href="javascript:setFavorite();">收藏网站</a></li>
+						
+					</ul>
+				
+				</div>
+			</div>
+			
+		</div>
+		<div class="clear"></div>
+		<div class="main fx">
+			
+			<div class="mid">
+				<div class="title">登陆账号</div>
+				<div class="content">
+					<div class="form-group">
+						<span>用户名：</span>
+						<input type="text" class="form-control" placeholder="手机号/QQ/用户名" maxlength="18">
+					</div>
+					
+					<div class="form-group">
+						<span>密&nbsp&nbsp 码 ：</span>
+						<input type="text" class="form-control" placeholder="请输入您的密码" maxlength="18">
+					</div>
+					<div class="form-group">
+						<span>验证码：</span>
+						<input type="text" class="form-control" placeholder="请输入验证码" maxlength="18">
+						<div class="yzm">
+							<img  src="tools/watermark.ashx" onclick="this.src='tools/watermark.ashx?'+ Math.random()"></div>
+                   		<!--<div class="message"></div>-->
+                   		
+					</div>
+					<div class="chio">
+                   			
+                   			 <input type="checkbox" class="radio" id="remember" value="true"><label for="remember">记住密码</label>
+                    	<div class="forget"><a href="/forget.aspx">忘记密码？</a></div>
+                   		</div>
+				</div>
+			</div>
+			
+		</div>
+		<div class="footer"></div>
+	</body>
+	<script type="text/javascript" src="js/main.js" ></script>
+</html>
